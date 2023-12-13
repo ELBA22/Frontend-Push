@@ -14,10 +14,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 120px;
+    height: 150px;
     border: 50px;
     align-items: center;
     background-color: beige;
+
 }
 
 nav a {
@@ -26,82 +27,150 @@ nav a {
     text-decoration: none;
     color: black;
     padding-left: 50px;
+    font-size: 20px;
 }
 
 .navbar img {
-   margin: 100px;
+   margin: 50px;
+   
+   
 }
 
 .container1 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    max-width: 1000%;
+    margin: 0;
+    padding-right: 500px;
     text-align: center;
 }
 
-.container1 h1 {
-    color: #333;
+.hijocontainer{
+    max-width: 500%;
+    margin: 100px;
+    
+}
+
+.hijocontainer h1 {
+    display: flex;
+    color: green;
     font-size: 50px;
-    text-align: left;
-    margin-top: 50px;
+    margin: 40px;
+    width: 600px;
+    text-align: center;
+    padding-right: 100px;
+    padding: 20px;
+    justify-content: start;
+
+}
+
+.hijocontainer p {
+    color: black;
+    margin: 10px;
     padding: 50px;
+    font-size: 25px;
 }
 
-.container1 p {
-    color: #666;
-}
-
-img {
-    max-width: 100%;
+.imagen2 {
+    max-width: 200%;
     height: auto;
-    display: block;
-    margin: 10px auto;
-    text-align: right;
-    padding: 10px;
+    display: flex;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+     
 }
-/* .container1{
-    padding: 30%;
-    width: 50px;
-    border: 2px solid black;
+.iconos{
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.facebook{
+    margin-left: 380px;
+    padding-top: 150px;
+    
+}
+
+.instagram{
+    margin-left: 380px;
+    padding-top: 30px;
+}
+
+.twitter{
+    margin-left: 380px;
+    padding-top: 30px;
+}
+
+.thums{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    padding-bottom: 10px;
+    max-width: 6100px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thums li:hover
+{
+    transform: translateY(-15px);
+}
+
+.thums li img{
+    max-width: 60px;
+    margin-right: 50px;
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 20px; /* 
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-right: 20px; /* Reduje el margen para dispositivos más pequeños */
+}
+
+.navbar img {
+    margin: 10px; /* Reduje el margen para dispositivos más pequeños */
+    max-height: 100px; /* Limité la altura máxima de la imagen */
+}
+
+
+
+
+
+
+
+
   
 
-}
-.container1 h1{
-    text-align: center;
-    font-size: 100px;
-
-
-
-}
-.container1 p{
-    text-align: center;
-    font-size: 20px;
-
-} */
-
-
-
-
-
-
-/* .menu-min {
-    border: 2px solid black;
-}
-
-@media screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav img {
-        margin-bottom: 15px;
-    }
-
-
-    .nav a {
-        margin: 0;
-        display: block;
-        padding: 10px 0;
-    }
-} */
